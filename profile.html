@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkdin Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png" >
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--navbar close-->
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.jpg" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/user-1.png" class="profile-pic">
+                    <div>
+                        <h1>UJJWAL CHOURASIA</h1><p>&nbsp&nbsp</p><span style="color: gray;">(He/Him)</span>
+                    </div>
+                    <b>React Js || PHP || MySQL || Python ||  DSA C++ || HTML || CSS  || Java Script || Bootstrap</b>
+                    <p>Dhanbad,Jharkhand,India &middot; <a href="#">Contact info</a></p>
+                    <a href="#">45 connections</a>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn">Open to</a>
+                        <a href="#">Add profile section</a>
+                        <a href="#" class="more">More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>As an Engineer and proactive individual, I have leveraged my passion for Al and web development through
+                    internships, Hackathons. and personal projects. With hands-on experience. I have tackled real-world
+                    challenges, continuously expanding my skills.</p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+            
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2021 - Present &middot; 1.5 years</b>
+                        <p>Computer programming is the process of performing a particular computation,usually by designing and building an executable computer program.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>June 2018 - Jan | &middot; 2.6 years</b>
+                        <p>Computer programming is the process of performing a particular computation,usually by designing and building an executable computer program.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/google.png">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google Inc &middot; Full-time</b>
+                        <b>Sept 2015 - May 2018 &middot; 2.8 years</b>
+                        <p>Computer programming is the process of performing a particular computation,usually by designing and building an executable computer program.</p>
+                        
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experience-link">Show all & experiences <img src="images/right-arrow.png"></a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Education</h2>
+
+                <div class="profile-desc-row">
+                    <img src="images/RCET.jpg">
+                <div>
+                <h3>Rungta College of Engineering and Technology, Raipur</h3>
+                <p>B.Tech - Computer Science and Engineering</p>
+                <b>Oct 2020 - July 2024</b>
+                <p class="act">Engineering . Team Management . Leadership . Communication</p>
+                <hr>
+                </div>
+                </div>
+
+                
+                <div class="profile-desc-row">
+                    <img src="images/kv.jpg">
+                <div>
+                <h3>Kendriya Vidyalaya</h3>
+                <p>Intermediate - Physics, Chemistry, Mathemetics</p>
+                <b>july 2018 - march 2020</b>
+                <p class="act">Activities & Societies . Volleyball . Sprinting</p>
+                </div>
+                </div>
+        </div>
+
+            <div class="profile-description">
+                <h2>Licenses & certifications</h2>
+
+                <div class="profile-desc-row">
+                    <img src="images/hack.jpg">
+                <div>
+                <h3>Code Fiesta Hackathon</h3>
+                <p>R1CodeFiesta</p>
+                <b>Issued April 2023</b>
+                <b>Credential Id: 3038474757483839</b>
+                <button class="profile-button">Show Credentials</button>
+                <p class="act">AI . ML . OpenCV . Data Testing . Frontend</p>
+                <hr>
+                </div>
+                </div>
+
+                
+                <div class="profile-desc-row">
+                    <img src="images/tcs.jpg">
+                <div>
+                <h3>TCS iON Young Professional</h3>
+                <p>Tata Consultancy Service</p>
+                <b>Issued April 2023</b>
+                <b>Credential Id: 3038474757483839</b>
+                <button class="profile-button">Show Credentials</button>
+                <p class="act">Business Ethics . Project Management . Comunication . Problem-solving</p>
+                </div>
+                </div>
+        </div>
+
+        <div class="profile-description">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">Web Design</a>
+            <a href="#" class="skills-btn">Development</a>
+            <a href="#" class="skills-btn">Communication</a>
+            <a href="#" class="skills-btn">UI/UX</a>
+            <a href="#" class="skills-btn">Planning</a>
+            <a href="#" class="skills-btn">Coding</a>
+            <a href="#" class="skills-btn">JavaScript</a>
+            <a href="#" class="skills-btn">Python</a>
+            <a href="#" class="skills-btn">Enterprenuorship</a>
+        </div>
+        <div class="profile-description">
+            <h2>Languages</h2>
+            <a href="#" class="language-btn">English</a>
+            <a href="#" class="language-btn">German</a>
+        </div>
+        </div>
+
+
+
+        <div class="profile-sidebar">
+
+            <div class="sidebar-people-top">
+                    <h2>Profile Language</h2>
+                        <p>English</p>
+                <hr>
+                    <h2>Public profile & URL</h2>
+                        <a href="https://www.linkedin.com/in/ujjwal-chourasia-01654a22b/">www.linkedin.com/in/ujjwal-chourasia-01654a22b</a>
+            </div>
+            <div class="hiring">
+                <img src="images/hiring.png">
+            </div>
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web design</p>
+                <div>
+                    <img src="images/user-1.png">
+                    <img src="images/mi-logo.jpg">
+                </div>
+                <b>Brand and Demand in Flutter</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="images/con1.jpg">
+                    <div>
+                        <h2>Aditya Yadav</h2>
+                        <p>Head of marketing at Alibaba</p>
+                        <a href="#" class="connect-btn">Connect</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/con2.jpg">
+                    <div>
+                        <h2>Sonu Kumar</h2>
+                        <p>Head of Engg. at Sony</p>
+                        <a href="#" class="connect-btn">Connect</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/con3.jpg">
+                    <div>
+                        <h2>Titu singh</h2>
+                        <p>CA of marketing at Samsung</p>
+                        <a href="#" class="connect-btn">Connect</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/con4.jpg">
+                    <div>
+                        <h2>Sonia Singhania</h2>
+                        <p>Intern at Microsoft</p>
+                        <a href="#" class="connect-btn">Connect</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/con5.jpg">
+                    <div>
+                        <h2>Akash sagar</h2>
+                        <p>Engineer at BCCL</p>
+                        <a href="#" class="connect-btn">Connect</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/con6.jpg">
+                    <div>
+                        <h2>Deepak Kalal</h2>
+                        <p>Head of marketing at TVF</p>
+                        <a href="#" class="connect-btn">Connect</a>
+                    </div>
+                    <hr>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/con7.jpg">
+                    <div>
+                        <h2>Nitish Sarkar</h2>
+                        <p>HR at Bihar Gov.</p>
+                        <a href="#" class="connect-btn">Connect</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="hiring">
+                <img src="images/hiring.png">
+            </div>
+
+            
+        </div>
+
+
+    </div>
+
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="images/logo.png">
+                <p>Linkdin &#169; 2023. All right reserved</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <script>
+        let profileMenu=document.getElementById("profileMenu");
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu")
+        }
+    </script>
+</body>
+</html>
